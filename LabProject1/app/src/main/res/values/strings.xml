@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LabProject1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">add</string>
+    <string name="add_ditails">Add</string>
+
+</resources>
