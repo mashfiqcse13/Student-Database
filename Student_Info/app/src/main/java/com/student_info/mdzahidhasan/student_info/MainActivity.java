@@ -64,6 +64,11 @@ public class MainActivity extends ListActivity  implements android.view.View.OnC
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+        Intent splash = new Intent(this, SplashScreen.class);
+        startActivity(splash);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -72,6 +77,7 @@ public class MainActivity extends ListActivity  implements android.view.View.OnC
 
         btnGetAll = (Button) findViewById(R.id.btnGetAll);
         btnGetAll.setOnClickListener(this);
+
 
     }
 
